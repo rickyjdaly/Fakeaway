@@ -35,7 +35,7 @@ export const BurgerMenu = [
       alt: " Pizza",
       name: "Supreme Pizza",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$19.99",
+      price: "€19.99",
       button: "Add to cart",
     },
     {
@@ -43,7 +43,7 @@ export const BurgerMenu = [
       alt: " Pizza",
       name: "Hawaiian Paradise",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$16.99",
+      price: "€16.99",
       button: "Add to cart",
     },
     {
@@ -51,7 +51,7 @@ export const BurgerMenu = [
       alt: " Pizza",
       name: "Veggie Overload",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$19.99",
+      price: "€19.99",
       button: "Add to cart",
     }
   ];
@@ -61,7 +61,7 @@ export const PizzaMenu = [
       alt: " Pizza",
       name: "Supreme Pizza",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$19.99",
+      price: "€19.99",
       button: "Add to cart",
     },
     {
@@ -69,7 +69,7 @@ export const PizzaMenu = [
       alt: " Pizza",
       name: "Hawaiian Paradise",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$16.99",
+      price: "€16.99",
       button: "Add to cart",
     },
     {
@@ -77,7 +77,7 @@ export const PizzaMenu = [
       alt: " Pizza",
       name: "Veggie Overload",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$19.99",
+      price: "€19.99",
       button: "Add to cart",
     }
   ];
@@ -87,7 +87,7 @@ export const ChickenMenu = [
       alt: " Pizza",
       name: "Supreme Pizza",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$19.99",
+      price: "€19.99",
       button: "Add to cart",
     },
     {
@@ -95,7 +95,7 @@ export const ChickenMenu = [
       alt: " Pizza",
       name: "Hawaiian Paradise",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$16.99",
+      price: "€16.99",
       button: "Add to cart",
     },
     {
@@ -103,7 +103,7 @@ export const ChickenMenu = [
       alt: " Pizza",
       name: "Veggie Overload",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$19.99",
+      price: "€19.99",
       button: "Add to cart",
     }
   ];
@@ -113,7 +113,7 @@ export const OtherMenu = [
       alt: " Pizza",
       name: "Supreme Pizza",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$19.99",
+      price: "€19.99",
       button: "Add to cart",
     },
     {
@@ -121,7 +121,7 @@ export const OtherMenu = [
       alt: " Pizza",
       name: "Hawaiian Paradise",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$16.99",
+      price: "€16.99",
       button: "Add to cart",
     },
     {
@@ -129,7 +129,7 @@ export const OtherMenu = [
       alt: " Pizza",
       name: "Veggie Overload",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$19.99",
+      price: "€19.99",
       button: "Add to cart",
     }
   ];
@@ -139,7 +139,7 @@ export const KebabMenu = [
       alt: " Pizza",
       name: "Supreme Pizza",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$19.99",
+      price: "€19.99",
       button: "Add to cart",
     },
     {
@@ -147,7 +147,7 @@ export const KebabMenu = [
       alt: " Pizza",
       name: "Hawaiian Paradise",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$16.99",
+      price: "€16.99",
       button: "Add to cart",
     },
     {
@@ -155,7 +155,7 @@ export const KebabMenu = [
       alt: " Pizza",
       name: "Veggie Overload",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$19.99",
+      price: "€19.99",
       button: "Add to cart",
     }
   ];
@@ -165,7 +165,7 @@ export const FriesMenu = [
       alt: " Pizza",
       name: "Supreme Pizza",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$19.99",
+      price: "€19.99",
       button: "Add to cart",
     },
     {
@@ -173,7 +173,7 @@ export const FriesMenu = [
       alt: " Pizza",
       name: "Hawaiian Paradise",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$16.99",
+      price: "€16.99",
       button: "Add to cart",
     },
     {
@@ -181,7 +181,7 @@ export const FriesMenu = [
       alt: " Pizza",
       name: "Veggie Overload",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$19.99",
+      price: "€19.99",
       button: "Add to cart",
     }
   ];
@@ -191,7 +191,7 @@ export const DessertMenu = [
       alt: " Pizza",
       name: "Supreme Pizza",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$19.99",
+      price: "€19.99",
       button: "Add to cart",
     },
     {
@@ -199,7 +199,7 @@ export const DessertMenu = [
       alt: " Pizza",
       name: "Hawaiian Paradise",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$16.99",
+      price: "€16.99",
       button: "Add to cart",
     },
     {
@@ -207,7 +207,7 @@ export const DessertMenu = [
       alt: " Pizza",
       name: "Veggie Overload",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "$19.99",
+      price: "€19.99",
       button: "Add to cart",
     }
   ];
