@@ -7,7 +7,7 @@ export const NavbarContainer = styled.nav`
   background: transparent;
   display: flex;
   justify-content: space-between;
-  position: absolute;
+  position: fixed;
   align-items: center;
   padding: 0 3rem;
   box-sizing: border-box;

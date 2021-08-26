@@ -13,7 +13,19 @@ import {
 
 } from "./MenuElements";
 
-const Menu = ({ title, data }) => {
+import uuid from 'uuid-v4';
+
+const Menu = ({ title, data, add }) => {
+
+    const addToOrder = (e) => {
+        const orderItem = {
+            id: uuid(),
+            name: e.target.name,
+            price: e.target.value
+        }
+        add(orderItem);
+    }
+
   return (
     <MenuContainer>
       <MenuHeading>{title}</MenuHeading>
@@ -26,7 +38,7 @@ const Menu = ({ title, data }) => {
                 <MenuTitle>{menu.name}</MenuTitle>
                 <MenuDesc>{menu.desc}</MenuDesc>
                 <MenuPrice>{menu.price}</MenuPrice>
-                <MenuButton>{menu.button}</MenuButton>
+                <MenuButton value={menu.price} name={menu.name} onClick={addToOrder}>{menu.button}</MenuButton>
                 </MenuInfo>
             </MenuCard>
             );
