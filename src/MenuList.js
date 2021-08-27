@@ -35,7 +35,7 @@ export const BurgerMenu = [
       alt: " Burger",
       name: "Double trouble",
       desc: "A double burger with lettuce, tomato, red onion",
-      price: "€12.99",
+      price: "12.99",
       button: "Add to cart",
     },
     {
@@ -43,7 +43,7 @@ export const BurgerMenu = [
       alt: "Burger",
       name: "The Smokehouse",
       desc: "Lettuce, tomatoes, barbeque sauce and a chargrilled burger",
-      price: "€9.99",
+      price: "9.99",
       button: "Add to cart",
     },
     {
@@ -51,7 +51,7 @@ export const BurgerMenu = [
       alt: " Burger",
       name: "The Classic",
       desc: "Lettuce, tomato, bacon and cheese",
-      price: "€7.99",
+      price: "7.99",
       button: "Add to cart",
     }
   ];
@@ -61,7 +61,7 @@ export const PizzaMenu = [
       alt: " Pizza",
       name: "Supreme Pizza",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "€19.99",
+      price: "19.99",
       button: "Add to cart",
     },
     {
@@ -69,7 +69,7 @@ export const PizzaMenu = [
       alt: " Pizza",
       name: "Hawaiian Paradise",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "€16.99",
+      price: "16.99",
       button: "Add to cart",
     },
     {
@@ -77,7 +77,7 @@ export const PizzaMenu = [
       alt: " Pizza",
       name: "Veggie Overload",
       desc: "Marinara Sauce, basil, sausage, roma tomatoes, olives, and pesto",
-      price: "€14.99",
+      price: "14.99",
       button: "Add to cart",
     }
   ];
@@ -87,7 +87,7 @@ export const ChickenMenu = [
       alt: " chicken",
       name: "Chicken Wings",
       desc: "12 chicken wings with sweet/honey/chilli sauce",
-      price: "€16.99",
+      price: "16.99",
       button: "Add to cart",
     },
     {
@@ -95,7 +95,7 @@ export const ChickenMenu = [
       alt: " chicken",
       name: "Chicken tenders",
       desc: "6 chicken tenders in breadcrumbs",
-      price: "€12.99",
+      price: "12.99",
       button: "Add to cart",
     },
     {
@@ -103,7 +103,7 @@ export const ChickenMenu = [
       alt: " Chicken",
       name: "Chicken Goujon bowl",
       desc: "A bowl of our famous chicken tenders",
-      price: "€9.99",
+      price: "9.99",
       button: "Add to cart",
     }
   ];
@@ -113,7 +113,7 @@ export const OtherMenu = [
       alt: " fish",
       name: "Beer battered Cod",
       desc: "Nothing is more traditional than our beer battered fish and chips",
-      price: "€14.99",
+      price: "14.99",
       button: "Add to cart",
     },
     {
@@ -121,7 +121,7 @@ export const OtherMenu = [
       alt: " Hotdog",
       name: "Hot Dog",
       desc: "Foot long hot dog with ketchup and mustard",
-      price: "€6.99",
+      price: "6.99",
       button: "Add to cart",
     },
     {
@@ -129,7 +129,7 @@ export const OtherMenu = [
       alt: " Burrito",
       name: "Mexican Burrito",
       desc: "Black beans, white rice, pulled pork, peppers and guacamole",
-      price: "€13.99",
+      price: "13.99",
       button: "Add to cart",
     }
   ];
@@ -139,7 +139,7 @@ export const KebabMenu = [
       alt: " Kebab",
       name: "Chicken kebab",
       desc: "Chicken kebab with veg and garlic sauce",
-      price: "€19.99",
+      price: "19.99",
       button: "Add to cart",
     },
     {
@@ -147,7 +147,7 @@ export const KebabMenu = [
       alt: " Kebab",
       name: "Doner Kebab",
       desc: "Doner kebab with veg and garlic sauce",
-      price: "€16.99",
+      price: "16.99",
       button: "Add to cart",
     },
     {
@@ -155,7 +155,7 @@ export const KebabMenu = [
       alt: " Kebab",
       name: "Veggie skewer",
       desc: "3 Veggie skewer that are smoked over the furnace ",
-      price: "€5.99",
+      price: "5.99",
       button: "Add to cart",
     }
   ];
@@ -165,7 +165,7 @@ export const FriesMenu = [
       alt: " chips",
       name: "Chunky Chips",
       desc: "Chunky chips that are perfect for every occasion",
-      price: "€2.99",
+      price: "2.99",
       button: "Add to cart",
     },
     {
@@ -173,7 +173,7 @@ export const FriesMenu = [
       alt: " chips",
       name: "Crispy chips",
       desc: "Narrow crispy chips that cannot be beat",
-      price: "€1.99",
+      price: "1.99",
       button: "Add to cart",
     },
     {
@@ -181,7 +181,7 @@ export const FriesMenu = [
       alt: " chips",
       name: "Fireball fries",
       desc: "feeling adventurous? try our fireball fries",
-      price: "€3.50",
+      price: "3.50",
       button: "Add to cart",
     }
   ];
@@ -191,7 +191,7 @@ export const DessertMenu = [
       alt: " Dessert",
       name: "Cherry Bomb",
       desc: "Biscuit with chocolate sauce, ice cream and topped with a cherry",
-      price: "€9.99",
+      price: "9.99",
       button: "Add to cart",
     },
     {
@@ -199,7 +199,7 @@ export const DessertMenu = [
       alt: " Dessert",
       name: "Classic Ice-cream",
       desc: "a selection of our favourite ice creams. ",
-      price: "€8.99",
+      price: "8.99",
       button: "Add to cart",
     },
     {
@@ -207,7 +207,7 @@ export const DessertMenu = [
       alt: " Dessert",
       name: "Sundae",
       desc: "A delicious sundae with a treat in every layer",
-      price: "€7.99",
+      price: "7.99",
       button: "Add to cart",
     }
   ];

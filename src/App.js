@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router} from 'react-router-dom';
 import { GlobalStyle } from './GlobalStyles';
@@ -13,6 +13,20 @@ const App = () => {
   const [sidebar, setSidebar] = useState(false);
 
   const [orders, setOrders] = useState([]);
+
+  const [total, setTotal] = useState();
+
+  useEffect(() => {
+    var total = 0;
+
+    orders.map(m => (
+      total = total + parseFloat(m.price)
+    ))
+
+      setTotal(total);
+    // alert(total)
+
+  }, [orders])
 
   const toggleSidebar = () => {
     setSidebar(!sidebar);
@@ -29,11 +43,19 @@ const App = () => {
     ))
   }
 
+  const removeFromList = (e) => {
+    
+    setOrders(orders.filter(st => st.id !== e.target.id));
+
+  }
+
+
+
   return ( 
     <Router>
       <GlobalStyle />
       <Navbar onClick={toggleSidebar} toggle={toggleSidebar}/>
-      <Sidebar show={sidebar} toggle={toggleSidebar} list={orders}/>
+      <Sidebar show={sidebar} toggle={toggleSidebar} list={orders} remove={removeFromList} total={parseFloat(total).toFixed(2)}/>
       
       <Hero />
       <Menu add={addToOrder} title='Premium Burgers' data={BurgerMenu}/>

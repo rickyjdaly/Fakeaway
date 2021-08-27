@@ -37,7 +37,7 @@ const Menu = ({ title, data, add }) => {
                 <MenuInfo>
                 <MenuTitle>{menu.name}</MenuTitle>
                 <MenuDesc>{menu.desc}</MenuDesc>
-                <MenuPrice>{menu.price}</MenuPrice>
+                <MenuPrice>€{menu.price}</MenuPrice>
                 <MenuButton value={menu.price} name={menu.name} onClick={addToOrder}>{menu.button}</MenuButton>
                 </MenuInfo>
             </MenuCard>

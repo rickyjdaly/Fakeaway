@@ -4,7 +4,7 @@ import { SidebarContainer, SidebarLinks, SidebarLink, SidebarClose, SidebarList,
 import {RiDeleteBin4Line} from 'react-icons/ri';
 
 
-const Sidebar = ({show, toggle, list}) => {
+const Sidebar = ({show, toggle, list, remove, total}) => {
     return ( 
         <SidebarContainer show={show}>
             
@@ -17,7 +17,7 @@ const Sidebar = ({show, toggle, list}) => {
                             <SidebarPrice>{m.price}</SidebarPrice>
                         </SidebarDetails>
                         <SidebarDelete>
-                            <RiDeleteBin4Line/>
+                            <RiDeleteBin4Line id={m.id} onClick={remove}/>
                         </SidebarDelete>                        
                         
                         
@@ -25,7 +25,7 @@ const Sidebar = ({show, toggle, list}) => {
                 ))}
                 
                     <SidebarOrder>
-                        <SidebarOrderPrice>€34.99</SidebarOrderPrice>
+                        <SidebarOrderPrice>€{total}</SidebarOrderPrice>
                         <SidebarOrderButton>Pay Now</SidebarOrderButton>
                     </SidebarOrder>
 
