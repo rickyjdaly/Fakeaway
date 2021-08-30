@@ -30,6 +30,7 @@ export const NavbarLogo = styled.h1`
 export const NavbarLink = styled(Link)`
   font-size: 2rem;
   color: #fff;
+  position: relative;
   
 
   &:hover{
