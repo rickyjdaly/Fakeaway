@@ -31,9 +31,25 @@ export const NavbarLink = styled(Link)`
   font-size: 2rem;
   color: #fff;
   position: relative;
-  
+  display: flex;
+  text-decoration: none;
 
   &:hover{
     color: #e9ba23;
   }
+`;
+
+export const OrderLabel = styled.div`
+  color: #fff;
+  background: #e31837;
+  /* position: absolute; */
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 50%;
+
+
+  
+  list-style: none;
+  
+  
 `;

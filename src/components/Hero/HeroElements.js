@@ -6,7 +6,8 @@ export const HeroContainer = styled.div`
     width: 100%;
     background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.4)), url(${Header});
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;

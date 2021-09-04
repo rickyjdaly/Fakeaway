@@ -54,8 +54,8 @@ const App = () => {
   return ( 
     <Router>
       <GlobalStyle />
-      <Navbar onClick={toggleSidebar} toggle={toggleSidebar}/>
-      <Sidebar show={sidebar} toggle={toggleSidebar} list={orders} remove={removeFromList} total={parseFloat(total).toFixed(2)}/>
+      <Navbar onClick={toggleSidebar} toggle={toggleSidebar} orderCount={orders.length}/>
+      <Sidebar show={sidebar} toggle={toggleSidebar} list={orders} remove={removeFromList} orderCount={orders.length} total={parseFloat(total).toFixed(2)}/>
       
       <Hero />
       <Menu add={addToOrder} title='Premium Burgers' data={BurgerMenu}/>

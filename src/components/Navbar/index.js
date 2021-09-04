@@ -1,8 +1,8 @@
 import React from 'react';
 import {CgShoppingCart} from 'react-icons/cg'
-import { NavbarContainer, NavbarLink, NavbarLinkCounter, NavbarLogo } from './NavbarElements';
+import { NavbarContainer, NavbarLink, NavbarLinkCounter, NavbarLogo, OrderLabel } from './NavbarElements';
 
-const Navbar = ({toggle}) => {
+const Navbar = ({toggle, orderCount}) => {
     return ( 
         <NavbarContainer>
             <NavbarLogo>
@@ -10,7 +10,7 @@ const Navbar = ({toggle}) => {
             </NavbarLogo>
             <NavbarLink>
                 <CgShoppingCart onClick={toggle}/>
-                
+                <OrderLabel>{orderCount}</OrderLabel>
             </NavbarLink>
         </NavbarContainer>
      );

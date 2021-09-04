@@ -146,3 +146,20 @@ export const SidebarOrderButton = styled.button`
   }
 `;
 
+export const SidebarOrderCount = styled.div`
+  color: #fff;
+  font-size: 3rem;
+  margin: 0 auto;
+  /* text-shadow: 3px 3px #000; */
+  text-transform: uppercase;
+  display: flex;
+`;
+
+export const SidebarOrderNumber = styled.p`
+  color: #e31837;
+  font-size: 3rem;
+  margin: 0 auto;
+  
+  padding-right: 1rem;
+  font-weight: 800;
+`;
