@@ -19,7 +19,7 @@ import {
 } from "./SidebarElements";
 import { RiDeleteBin4Line } from "react-icons/ri";
 
-const Sidebar = ({ show, toggle, list, remove, total, orderCount }) => {
+const Sidebar = ({openModal, show, toggle, list, remove, total, orderCount }) => {
   return (
     <SidebarContainer show={show}>
       <SidebarClose onClick={toggle}>
@@ -46,7 +46,7 @@ const Sidebar = ({ show, toggle, list, remove, total, orderCount }) => {
 
         <SidebarOrder>
           <SidebarOrderPrice>€{total}</SidebarOrderPrice>
-          <SidebarOrderButton>Pay Now</SidebarOrderButton>
+          <SidebarOrderButton onClick={openModal}>Pay Now</SidebarOrderButton>
         </SidebarOrder>
       </SidebarList>
     </SidebarContainer>
