@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const SidebarContainer = styled.div`
   display: ${(props) => (props.show ? 'flex' : 'none')};
   width: 350px;
+  /* height: 100%; */
   height: 100%;
   /* max-height: 100vh; */
   z-index: 9;

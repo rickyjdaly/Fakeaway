@@ -11,7 +11,7 @@ export const FooterContainer = styled.div`
 `;
 
 export const FooterTitle = styled.h2`
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 3px;
   font-weight: 300;
   text-transform: uppercase;
@@ -25,7 +25,7 @@ export const FooterLogos = styled.div`
 `;
 
 export const FooterLogo = styled.i`
-  font-size: 3rem;
+  font-size: 2rem;
 
   &:hover{
       color: #e31837;
