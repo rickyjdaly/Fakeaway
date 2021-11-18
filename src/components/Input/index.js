@@ -3,7 +3,7 @@ import { InputContainer, InputText, InputDropdown, InputTitle } from './InputEle
 
 const Input = (props) => {
 
-    if(props.elType == 'Dropdown'){
+    if(props.elType === 'Dropdown'){
         return (
             <InputContainer>
               <InputTitle>{props.title}:</InputTitle>
@@ -26,7 +26,7 @@ const Input = (props) => {
           );
     }
 
-    if(props.elType == 'text'){
+    if(props.elType === 'text'){
         return (
           <InputContainer>
             <InputTitle>{props.title}:</InputTitle>

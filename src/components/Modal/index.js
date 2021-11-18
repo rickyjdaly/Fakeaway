@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactDom from "react-dom";
-import { ModalBackdrop, ModalButton, ModalContent, ModalIcons, ModalPrice, ModalTitle } from "./ModalElements";
-
+import { ModalBackdrop, ModalButton, ModalContent, ModalIcons, ModalPrice, ModalTitle, ModalClose } from "./ModalElements";
+import { VscChromeClose } from "react-icons/vsc";
 import {TiTick} from 'react-icons/ti'
 
 import counties from "../../counties";
@@ -12,9 +12,9 @@ const Modal = ({ show, children, total, closeModal, toggle, clear }) => {
 
   const [stage, setStage] = useState(1);
 
-  const [getCounty, setCounty] = useState();
+  // const [getCounty, setCounty] = useState();
   const [getTownList, setTownList] = useState([]);
-  const [getTown, setTown] = useState([]);
+  // const [getTown, setTown] = useState([]);
 
   const changeCounty = (event) => {
     const count = counties.find(
@@ -22,14 +22,14 @@ const Modal = ({ show, children, total, closeModal, toggle, clear }) => {
     ).subs;
 
     // console.log(count[0].cities);
-    setCounty(event.target.value);
+    // setCounty(event.target.value);
     setTownList(count);
     // setCounty(count);
   };
 
-  const changeTown = (e) => {
-    setTown(e.target.value);
-  };
+  // const changeTown = (e) => {
+  //   setTown(e.target.value);
+  // };
 
 
   const resetStage = () => {
@@ -58,12 +58,20 @@ const Modal = ({ show, children, total, closeModal, toggle, clear }) => {
 
   if (!show) return null;
 
-  if(stage == 1){
+  if(stage === 1){
     return ReactDom.createPortal(
       <>
         <ModalBackdrop />
+        
         <ModalContent>
+
+          <ModalClose onClick={endModal}>
+            <VscChromeClose />
+          </ModalClose>
+          
+
           <ModalTitle>Enter Your Address</ModalTitle>
+          
 
           <Input elType="text" title="Address" name='Address' />
 
@@ -82,7 +90,7 @@ const Modal = ({ show, children, total, closeModal, toggle, clear }) => {
             placeholder="Town"
             type="text"
             list={getTownList}
-            onInput={changeTown}
+            // onInput={changeTown}
           />
 
           <Input elType="text" title="Eircode" />
@@ -98,11 +106,14 @@ const Modal = ({ show, children, total, closeModal, toggle, clear }) => {
     )
   }
 
-  if(stage == 2){
+  if(stage === 2){
     return ReactDom.createPortal(
       <>
         <ModalBackdrop />
         <ModalContent>
+          <ModalClose onClick={endModal}>
+            <VscChromeClose />
+          </ModalClose>
           <ModalTitle>Enter Payment Options</ModalTitle>
 
           <Input elType="text" title="Full Name" name='FullName'/>
@@ -124,11 +135,14 @@ const Modal = ({ show, children, total, closeModal, toggle, clear }) => {
       document.getElementById("portal")
     );
   }
-  if(stage == 3){
+  if(stage === 3){
     return ReactDom.createPortal(
       <>
         <ModalBackdrop />
         <ModalContent>
+          <ModalClose onClick={endModal}>
+            <VscChromeClose />
+          </ModalClose>
           <ModalTitle>Thank you for your order</ModalTitle>
 
 

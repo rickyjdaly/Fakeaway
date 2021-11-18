@@ -30,6 +30,8 @@ export const ModalContent = styled.div`
   justify-content: center;
   /* align-items: center; */
 
+  
+
   z-index: 1000;
 `;
 
@@ -37,6 +39,20 @@ export const ModalTitle = styled.h2`
   font-size: 2.5rem;
   font-weight: 500;
   color: #e31837;
+`;
+
+export const ModalClose = styled.i`
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  color: #e31837;
+  z-index: 1320;
+  font-size: 32px;
+
+  &:hover{
+      cursor: pointer;
+  }
+
 `;
 
 export const ModalButton = styled.button`
